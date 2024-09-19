@@ -4,5 +4,7 @@ if mid < 90:
     print(0)
 elif final >= 95:
     print(100000)
-else:
+elif final >= 90:
     print(50000)
+else:
+    print(0)
