@@ -1,18 +1,16 @@
 a, b = map(int, input().split())
+print(a, end=" ")
 
 for _ in range(a, b+1):
-    if a >= b:
-        print(a, end=" ")
-        break
-    elif a % 2 == 1:
-        if a >= b:
+    if a % 2 == 1:
+        a *= 2
+        if a > b:
             break
         else:
             print(a, end=" ")
-            a *= 2
     elif a % 2 == 0:
-        if a >= b:
+        a += 3
+        if a > b:
             break
         else:
             print(a, end=" ")
-            a += 3
