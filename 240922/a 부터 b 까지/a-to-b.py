@@ -5,8 +5,14 @@ for _ in range(a, b+1):
         print(a, end=" ")
         break
     elif a % 2 == 1:
-        print(a, end=" ")
-        a *= 2
+        if a >= b:
+            break
+        else:
+            print(a, end=" ")
+            a *= 2
     elif a % 2 == 0:
-        print(a, end=" ")
-        a += 3
+        if a >= b:
+            break
+        else:
+            print(a, end=" ")
+            a += 3
