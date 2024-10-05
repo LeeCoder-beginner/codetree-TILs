@@ -6,5 +6,5 @@ for i in range(n):
             print(((n//2)*i*3)+(j+1), end=" ")
     else:
         for j in range(n):
-            print((n*((i+(i+1)//2)-1))+(2*j+2), end=" ")
+            print(n*((i+(i+1)//2)-1)+(2*j+2), end=" ")
     print()
