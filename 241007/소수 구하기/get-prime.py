@@ -6,4 +6,4 @@ for i in range(2, n+1):
         if i % j == 0:
             cnt += 1
     if cnt == 2:
-        print(i, end=: )
+        print(i, end=" ")
