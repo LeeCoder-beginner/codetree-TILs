@@ -8,4 +8,5 @@ for i in range(len(lis)):
         sum_val += lis[i]
         list1.append(lis[i])
 
-print(sum_val, sum_val/len(list1))
+print(sum_val, end=" ")
+print(f"{sum_val/len(list1):.1f}")
