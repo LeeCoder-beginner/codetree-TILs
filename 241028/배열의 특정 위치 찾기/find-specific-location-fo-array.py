@@ -8,4 +8,4 @@ ave_list = arr[2::3]
 # print(sum_list)
 # print(ave_list)
 print(sum(sum_list), end=" ")
-print(f"{sum(ave_list) / len(ave_list)}")
+print(f"{sum(ave_list) / len(ave_list):.1f}")
